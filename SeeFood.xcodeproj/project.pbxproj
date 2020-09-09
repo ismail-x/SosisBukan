@@ -13,6 +13,7 @@
 		EC12F3902502320A006D5D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC12F38E2502320A006D5D28 /* Main.storyboard */; };
 		EC12F3922502320D006D5D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC12F3912502320D006D5D28 /* Assets.xcassets */; };
 		EC12F3952502320D006D5D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC12F3932502320D006D5D28 /* LaunchScreen.storyboard */; };
+		EC12F39D2502328F006D5D28 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EC12F39C2502328F006D5D28 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC12F3912502320D006D5D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC12F3942502320D006D5D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC12F3962502320D006D5D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC12F39C2502328F006D5D28 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EC12F3912502320D006D5D28 /* Assets.xcassets */,
 				EC12F3932502320D006D5D28 /* LaunchScreen.storyboard */,
 				EC12F3962502320D006D5D28 /* Info.plist */,
+				EC12F39C2502328F006D5D28 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC12F38D2502320A006D5D28 /* ViewController.swift in Sources */,
+				EC12F39D2502328F006D5D28 /* Inceptionv3.mlmodel in Sources */,
 				EC12F3892502320A006D5D28 /* AppDelegate.swift in Sources */,
 				EC12F38B2502320A006D5D28 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8XJKQSAWS;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8XJKQSAWS;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
